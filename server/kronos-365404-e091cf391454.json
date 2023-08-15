@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kronos-365404",
+  "private_key_id": "e091cf39145451b40d17c9d0d177bd28377e2a41",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/4UpXhXNkMjXR\nam0KXemTYbDEgoUE/bXcdkgegIgfcNmLF1c52Ppjlmi7sWglsYYzlHbFrITmRuHt\nxnvwjnFqJs5V+gW2GGMd1MeMdsdH40c/dWZUgZ65HbUd5ATnGmDw01hG1CiFeDoM\nW+N02eE/TrPnq5QQ83FJw6U1slGzgVFxyM0f0SfR0YAjsd23NEtCdhxReZ4x2GpI\nUQdrCIiT48a/Y6vo3oOVxkwGrTClLOeXgFraaENcguCUTQCjPfjzX+i8WEeBFeqT\nnG5GqiLufUc3kiqS1wF7E2lgFgmU5NLx9k0b4QTd2XV27jFOu+pMYpL4J4MnysAd\nXGrnwvZrAgMBAAECggEAEH+et+bPVLKyiPNyaJB82IGiXhgHUWk+481x09mWZ5AS\n/7aXXYlIG+ifacaBbEt9SasYb7r7rgQADvgtlcurRqBxxnFaLPc5pb0ZfJaFk3gg\nTkpAbPMjD2S8B+1tJ7GCqCjSYtWBBHTuSaJb01Zp26eSdYP9yVu9U0V7Mgit2Lxj\n5+DrQ7fg9vsmKawgVnD/equ32wifW2XWr1POzuylNYcYvGyiBcuPFttT4uRp1UEL\namV7pibM2s7jmyxj+mid0SwsQyHfBUQslitGKPrkwZTEZW2z+b5Mbs2T1oN2RoTL\nsjpNT+5jl+1R4SVc6Z1FezBkoSEG2trSlH5ihXbRcQKBgQD7uLhvn8rK/Jm/f4Q+\nswnxj8qTSgAiWShm4XYzD59CsAAixU42VXnIjrHNra0yPtOj/qdwu/qcOXIqLTXc\nz/29t6NcbTnWHpEW5cQ0ATD8IlDGSDQqjHLw3xpTuHKfessKwF3AZ8Ogs7PuYh9V\nXgilNYb3xvM1jO566hIbuZIJEQKBgQDDJDCw4TlThYr2u7mOrBSaMhdIqrQxWs1w\nVGkmSaxP1gBLamRACSgiAIhrL0AP13ghWIq4GXAcPq84VmGtquQ8QrOJrti18Nvi\nuS+GEW+Rnf+J3LRrp47R1/+iOAJFl1LyAGCrYprl+WnplnPztJkEL5dBsxW2LOwG\nEPFNlWjnuwKBgBpaO0zMUMGxcjMfGWwq+DaG1DFZROxToywqHGK6FvU3UbxSJZ8A\nkdBSSAD9Vq108Fkx1ruxoknqpa4Or53fVHQhHoQVl0F4T74y7bh4C3XJ7eTkODng\nHERlRu9O1wklJM6KVwZGlq9jQMoLEbaxMnyBPxD/jgSkLW9GxACNC+HRAoGBAL/Z\nIaGUG5b4cJF4J8qTdUHPQ0LmyHbJTbZE1oeU4Lowq2N5eovWNMWQ/o1aC8JHVMx7\nzw2FvMmX+w4JJsjlfLOd5ALViir9XEA/TfChza08x1ETUbGRLwExORqTs/AVAK/5\nHREBxUWZer3yc5bCE7mgzDUESrEq4vRnzcQ3wsYnAoGBALG4tbvB1emogs3kNiOh\nMKKFgKCrdzVt9tFhS4EYiNey9AzMXBUm0BGGNxGIygloNjEmYQyUP/NyPy+XvCje\nZHC7ZuRgMyxs5Xcht78ID6fSESWY+RXIl8Jx6t2t8LGaHYmpm0H+iWV5eiUNhx31\neDhE4/saIFU0l+KqxCqjBSBW\n-----END PRIVATE KEY-----\n",
+  "client_email": "kronos-process-syllabus@kronos-365404.iam.gserviceaccount.com",
+  "client_id": "101014632921220369004",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kronos-process-syllabus%40kronos-365404.iam.gserviceaccount.com"
+}

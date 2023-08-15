@@ -1,0 +1,35 @@
+{
+  "short_name": "Kronos",
+  "name": "Kronos",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo192.png",
+    "128": "logo512.png"
+  },
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["tabs", "identity", "scripting", "activeTab", "storage"],
+  "host_permissions": ["http://localhost:3001/*"],
+  "oauth2": {
+    "client_id": "553072974402-ouqfookd61sn8ef9ijidec4m90mj49if.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "email",
+      "profile",
+      "https://www.googleapis.com/auth/calendar",
+      "https://www.googleapis.com/auth/calendar.events",
+      "https://www.googleapis.com/auth/calendar.readonly"
+    ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkKQSeKhem1wI9GYoshR/Oot8DnU66QkC9ysyePgwfeKJQSr2xp6dytae1XHzsSWF5fAt3zvme1Pvchd3gL1wEgBQbiezhm4eZlErtCKjb9KFwQ1gheRvUQ1c6efQsFkWKeiMd+5tYGmXgsNXzZIHtxRvXFuUHLAus75rXITnCD31P3RoKrXwMl4HVAE4YCvt3dQQ1AEqxUEZuI4Qvd1F/lEWHtbvT3CmMovURX4cbieslQyEjUMViRzI9bHNvDxDzhnmcjnIJngqYZougcXf/2XnZQQnzk0RU253O4gdSanhVIPDnjzGBuYe2YKSAAThunGXx73KIm5YAc6t/8cIDQIDAQAB"
+}

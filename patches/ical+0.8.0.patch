@@ -1,0 +1,22 @@
+diff --git a/node_modules/ical/node-ical.js b/node_modules/ical/node-ical.js
+index a62a4f9..f4b4576 100644
+--- a/node_modules/ical/node-ical.js
++++ b/node_modules/ical/node-ical.js
+@@ -18,6 +18,7 @@ ical.objectHandlers['END'] = function (val, params, curr, stack) {
+ 	// due to the subtypes.
+ 	if ((val === "VEVENT") || (val === "VTODO") || (val === "VJOURNAL")) {
+ 		if (curr.rrule) {
++			let rrule_string = curr.rrule;
+ 			var rule = curr.rrule.replace('RRULE:', '');
+ 			if (rule.indexOf('DTSTART') === -1) {
+ 
+@@ -40,7 +41,8 @@ ical.objectHandlers['END'] = function (val, params, curr, stack) {
+                     console.error("No toISOString function in curr.start", curr.start);
+ 				}
+ 			}
+-			curr.rrule = rrule.fromString(rule);
++			// curr.rrule = rrule.fromString(rule);
++			curr.rrule = rrule_string;
+ 		}
+ 	}
+   return originalEnd.call(this, val, params, curr, stack);
